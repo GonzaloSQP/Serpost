@@ -1,0 +1,36 @@
+.promo {
+  background-color: var(--color-primary);
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+}
+
+.promo__content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 300px;
+  color: white;
+}
+
+.promo__delivery-man {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 400px;
+}
+
+.promo__logo {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 300px;
+}
+
+.promo__text {
+  position: absolute;
+  right: 0;
+  bottom: 2rem;
+  text-align: right;
+  font-size: 1.125rem;
+}

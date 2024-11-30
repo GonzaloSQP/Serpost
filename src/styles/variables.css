@@ -1,0 +1,9 @@
+:root {
+  --color-primary: #1e3a8a;
+  --color-secondary: #ff3e1d;
+  --color-text: #333333;
+  --color-background: #ffffff;
+  --color-notice: #4338ca;
+  --color-gray-light: #f3f4f6;
+  --font-family: system-ui, -apple-system, sans-serif;
+}

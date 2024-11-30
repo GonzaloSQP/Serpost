@@ -1,0 +1,29 @@
+.app {
+  min-height: 100vh;
+  background-color: var(--color-gray-light);
+}
+
+.main {
+  padding: 1rem 0;
+}
+
+.breadcrumb {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  color: var(--color-text);
+}
+
+.breadcrumb__separator {
+  margin: 0 0.5rem;
+  color: var(--color-primary);
+}
+
+.title {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: var(--color-primary);
+  font-size: 2rem;
+  font-weight: 600;
+}

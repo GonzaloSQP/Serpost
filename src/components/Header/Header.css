@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  background-color: var(--color-background);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 2.5rem;
+}
+
+.header__menu-btn,
+.header__action-btn {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.header__actions {
+  display: flex;
+  gap: 0.5rem;
+}

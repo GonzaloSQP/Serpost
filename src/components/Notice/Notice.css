@@ -1,0 +1,36 @@
+.notice {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.notice__header {
+  background-color: var(--color-notice);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+  font-weight: 600;
+}
+
+.notice__content {
+  background-color: white;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.notice__text {
+  flex: 1;
+}
+
+.notice__icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--color-notice);
+  padding: 0.75rem;
+  border-radius: 50%;
+}
